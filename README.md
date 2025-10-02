@@ -39,3 +39,27 @@ Click below to run the project in Google Colab:
 ---
 
 ## 📂 Repository Structure
+NeuroCare-AI
+┣ 📜 README.md
+┣ 📜 requirements.txt
+┣ 📜 brain_tumor.yaml
+┣ 📂 data
+┃ ┣ 📂 train
+┃ ┣ 📂 valid
+┃ ┗ 📂 test
+┣ 📂 notebooks
+┃ ┗ neurocare_ai_demo.ipynb
+┣ 📂 models
+┃ ┗ yolov8_brain_tumor.pt
+┗ 📂 utils
+┗ helper_functions.py
+
+## Usage
+Upload MRI dataset (train/valid/test).
+Train YOLOv8 model on brain tumor detection.
+Use RAG to analyze medical reports.
+Interact with chatbot for medical queries.
+Generate personalized treatment plans.
+
+📜 License
+This project is licensed under the MIT License – free to use and modify.
